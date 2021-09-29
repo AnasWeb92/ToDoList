@@ -72,7 +72,7 @@ else if(e.target.className=="icon-star-full icon"){
     container.prepend(e.target.parentElement)
 
 fav.append(e.target.parentElement)
-console.log(document.querySelectorAll(".fav .task").length);
+favCount.innerHTML=document.querySelectorAll(".fav .task").length;
 
 
     
